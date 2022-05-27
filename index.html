@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trenton's Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="pfp.png">
+
+    </head>
+    <body>
+        <header>
+            <img src="pfp.png" class="logo"></a>
+          
+            
+            
+            <ul>
+                <li style="--i:5;"><a href="#" class="active">Home</a></li>
+                <li style="--i:3;"><a href="about.html">About</a></li>
+                <li style="--i:2;"><a href="media.html">media</a></li>
+                <li style="--i:1;"><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="mountains_behind.png" id="mountains_behind">
+            <h2 id="text">My Website</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="mountains_front.png" id="mountains_front">
+
+        </section>
+        <div class="sec" id="sec">
+            <h2>Trenton Scott's  Website</h2>
+            <p>Welcome to my website. On this website you will be able to see all of the computer technology related projects I've done aswell as some photos I've taken and media I've created!
+         
+           <br><br><br>
+            <p id="copyright">
+            credit: https://www.freepik.com/free-vector/mountains-cleft-view-from-bottom-night-scenery-landscape-with-high-rocks-full-moon-with-stars-glowing-peaks_13194970.htm#page=1&query=Scene&position=38
+              <br>  for the background of this page.
+            </p>
+        </div>
+        
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon'); 
+            let mountains_behind = document.getElementById('mountains_behind'); 
+            let text = document.getElementById('text'); 
+            let btn = document.getElementById('btn'); 
+            let mountains_front = document.getElementById('mountains_front'); 
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value *0.25 + 'px';
+                moon.style.top = value *1.05 + 'px';
+                mountains_behind.style.top = value * 0.5 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 3 + 'px';
+                text.style.marginTop = value * 1.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 +'px';
+
+
+
+            })
+        </script>
+    </body>
+</html> 
