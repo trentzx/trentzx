@@ -8,13 +8,13 @@
 
 **National Cyber Security finalist** who loves turning ambitious technical ideas into working systems.
 
-[LinkedIn](https://www.linkedin.com/in/trentonscottx/) · [Featured Project](https://github.com/trentzx)
+[LinkedIn](https://www.linkedin.com/in/trentonscottx/) 
 
 </div>
 
 ## 🚀 What I'm Building
 
-### 🔎 Guelph Research Finder
+###  [Guelph Research Finder](https://guelph-research-finder.vercel.app/)
 
 A platform helping students discover research opportunities and connect with professors at the University of Guelph, with the goal of expanding to universities across Canada.
 
