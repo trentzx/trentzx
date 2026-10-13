@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Trenton Scott 👋
+# Hey, I'm Trenton Scott 
 
 ### Software • Hardware • Cybersecurity • Computer Architecture
 
