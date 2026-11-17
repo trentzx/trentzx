@@ -1,9 +1,9 @@
 # Trenton Scott
 
-Computer engineering @ University of Guelph. I build across the hardware–software line — developer tooling, search systems, RTL security, and a RISC-V core.
+Computer engineering @ University of Guelph. I build across the hardware–software line - developer tooling, search systems, RTL security, and a RISC-V core.
 
-- **Student consultant @ Bioacuity Consulting** — supplier selection and regulatory deliverables
-- **Cybersecurity team lead @ CyberTitan** — placed 12th in Canada
+- **Student consultant @ Bioacuity Consulting** - supplier selection and regulatory deliverables
+- **Cybersecurity team lead @ CyberTitan** - placed 12th in Canada
 - Into CPU and GPU architecture, embedded systems, FPGA design, graphics, and security
 
 ### projects
